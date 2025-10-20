@@ -35,11 +35,7 @@ case "$1" in
     exit 0
     ;;
   shake)
-    # You can optionally use the rest of the arguments as a question:
-    # question="${@:2}"
-    # echo "You asked: $question"
 
-    # Your 8-ball responses:
     defaults=("youre cooked lmao" "yeah maybe ig" "nah u fried fr" "yes" "no" "maybe" "perchance" "maychancehaps" "yeah probably tbh" "idk go gamble" "depends on what you think" "lmao who cares")
     length=${#defaults[@]}
     index=$((RANDOM % length))
