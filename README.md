@@ -27,12 +27,14 @@ Magic 8ball running in the linux terminal
 
 ## Install
 
-simply run:
+Simply run in your terminal:
 ```
 >curl -fsSL https://github.com/srsxnsh/8ball/blob/main/8ball.sh -o 8ball.sh
 >chmod +x 8ball.sh
 >sudo mv 8ball.sh /usr/local/bin/8ball
 ```
+OR use the provided install script.
+
 ## Commands
 
 - shake     : Shakes the 8ball
