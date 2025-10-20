@@ -1,5 +1,6 @@
 # Terminal 8ball
 
+```
         ____
     ,dP9CGG88@b,
   ,IP  _   Y888@@b,
@@ -13,7 +14,9 @@ Y8GGGGGG8888888@@@@P.....
  `Y8888888@@@@@@@P'......
     `@@@@@@@@@P'.......
         """"........
-        
+
+```
+
 Magic 8ball running in the linux terminal
 
 ## Install
