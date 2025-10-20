@@ -9,6 +9,6 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-curl -fsSL https://githubaddress/$SCRIPT_NAME -o "$TARGET"
+curl -fsSL https://github.com/srsxnsh/8ball/blob/main/$SCRIPT_NAME -o "$TARGET"
 chmod +x "$TARGET"
 echo "Installed 8ball to $TARGET"
